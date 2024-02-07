@@ -10,13 +10,13 @@ const MascotaSchema = Schema({
         require: [true, 'Raza para la mascota obligatoria']
     },
     edadMas: {
-        type: Number,
+        type: String,
         require: [true, 'La edad para la mascota es obligatoria']
     },
     estadoMas: {
         type: String,
-        require: true
-    }
+        default: true
+    },
 });
 
 module.exports = model ('Mascota', MascotaSchema);

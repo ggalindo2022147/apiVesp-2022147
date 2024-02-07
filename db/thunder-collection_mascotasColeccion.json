@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "mascotasColeccion",
+    "dateExported": "2024-02-07T23:16:46.805Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cfd84696-3c2c-4704-b221-0e0a895e2079",
+            "colId": "f5b65c95-001c-4d6f-977b-331bba235eff",
+            "containerId": "",
+            "name": "post mascotas",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-06T23:16:42.516Z",
+            "modified": "2024-02-07T22:48:03.681Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombreMas\": \"Huesos\",\n  \"razaMas\": \"chau chau\",\n  \"edadMas\": \"8\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "eab919be-ce68-4314-96f3-f36499dd4721",
+            "colId": "f5b65c95-001c-4d6f-977b-331bba235eff",
+            "containerId": "",
+            "name": "get mascotas",
+            "url": "http://localhost:3000/api/mascotas",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-07T21:42:51.763Z",
+            "modified": "2024-02-07T21:43:50.602Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3e24230c-55ee-4006-875e-1f7354bdcd01",
+            "colId": "f5b65c95-001c-4d6f-977b-331bba235eff",
+            "containerId": "",
+            "name": "get mascotasById",
+            "url": "http://localhost:3000/api/mascotas/65c3f663d21d213bf7eb3cc4",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-07T22:07:49.241Z",
+            "modified": "2024-02-07T22:08:43.915Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6affebee-1038-4f41-be42-a760d7475ca6",
+            "colId": "f5b65c95-001c-4d6f-977b-331bba235eff",
+            "containerId": "",
+            "name": "putMascota",
+            "url": "http://localhost:3000/api/mascotas/65c3f663d21d213bf7eb3cc4",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-07T22:14:06.979Z",
+            "modified": "2024-02-07T23:06:21.869Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n   \"nombreMas\": \"Huesos\",\n   \"razaMas\": \"chau chau\",\n   \"edadMas\": \"8\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "3a0b9081-4db2-475d-80f5-e32f9db3d86f",
+            "colId": "f5b65c95-001c-4d6f-977b-331bba235eff",
+            "containerId": "",
+            "name": "delete mascota",
+            "url": "http://localhost:3000/api/mascotas/65c4072be08e9961b504533a",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-07T22:35:39.460Z",
+            "modified": "2024-02-07T23:09:07.175Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
