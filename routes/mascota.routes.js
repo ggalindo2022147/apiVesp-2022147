@@ -9,7 +9,6 @@ const { mascotaPost,
         putMascota,
         mascotaDelete } = require('../controllers/mascota.controller');
 
-const Mascota = require('../models/mascota');
 const { existeMascotaById } = require('../helpers/db-valitadors');
 
 const router = Router();
@@ -21,7 +20,7 @@ router.get(
   [
     check('id', 'No es un id valido').isMongoId(),
     check('id').custom(existeMascotaById),
-    validarCampos
+    validarCampos,
   ],getMascotaById);
 
   router.put(
